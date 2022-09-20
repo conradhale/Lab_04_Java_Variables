@@ -35,18 +35,28 @@ public class Main {
 
     double lunchCost = 10.25;
     System.out.println("The cost of my lunch is " + lunchCost);
+    double doubleLunch = lunchCost * 2;
+    System.out.println("Double the cost of my lunch is " + doubleLunch);
 
     int kidsInFamily = 4;
     System.out.println("There are " + kidsInFamily + " kids in my family");
+    int halfKids = kidsInFamily / 2;
+    System.out.println("Half of the number of kids in my family is " + halfKids);
 
     double gallonGasPrice = 3.25;
     System.out.println("The price of a gallon of gas is: " + gallonGasPrice);
+    double doubleGasPrice = gallonGasPrice * 2;
+    System.out.println("Double the cost of a gallon of gas is " + doubleGasPrice);
 
     int favNum = 9;
     System.out.println("My favorite number is " + favNum);
+    int doubleNum = favNum * 2;
+    System.out.println("Double my favorite number is " + doubleNum);
 
     int shoeSize = 10;
     System.out.println("My shoe size is " + shoeSize);
+    int halfShoeSize = shoeSize / 2;
+    System.out.println("Half of my shoe size is " + halfShoeSize);
 
     String birthMonth = "July";
     System.out.println("I was born in " + birthMonth);
